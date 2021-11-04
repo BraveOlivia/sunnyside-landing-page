@@ -1,10 +1,27 @@
 import React from 'react';
+import services from './data';
 
-const Body = () => {
+interface Props {
+    title: string;
+    description: string;
+    learnMore: boolean;
+    img: string;
+}
+
+// React.FC === React functional component
+const Service: React.FC<Props> = ({ title, description, learnMore, img }) => {
     return (
         <>
-            <div>Body</div>
-        </>)
+            <h1>{title}</h1>
+            <p>{description}</p>
+            <img src={img} alt="img-bg" />
+            {learnMore && <a>Learn More</a>}
+        </>);
+}
+
+const Body = () => {
+    return <Service title="Body" description="123" learnMore={true} img="123" />
+
 }
 
 export default Body;

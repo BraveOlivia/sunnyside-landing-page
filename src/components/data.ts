@@ -66,3 +66,32 @@ export const socialIcons = [
     },
 ]
 
+export const services = [
+    {
+        "description": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+        "title": "Transform your brand",
+        "img": "/images/image-emily.jpg",
+        "learnMore":true,
+    },
+    {
+        "description": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. ",
+        "title": "Stand out to the right audience",
+        "img": "/images/image-emily.jpg",
+        "learnMore":true,
+    },
+
+    {
+        "description": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.",
+        "title": "Graphic design",
+        "img": "/images/image-emily.jpg",
+        "learnMore":true,
+    },
+    {
+        "description": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
+        "title": "Photography",
+        "img": "/images/image-emily.jpg",
+        "learnMore":true,
+    },
+
+];
+

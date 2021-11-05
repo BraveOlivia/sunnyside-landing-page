@@ -20,7 +20,10 @@ const Service: React.FC<Props> = ({ title, description, learnMore, img }) => {
 }
 
 const Body = () => {
-    return <Service title="Body" description="123" learnMore={true} img="123" />
+    return (services.map(service =>
+        <Service title={service.title} description={service.content} learnMore={true} img={service.img} />
+    ));
+    // return <Service title="Body" description="123" learnMore={true} img="123" />
 
 }
 

@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from "../images/logo.svg"
-import background from "../images/desktop/image-header.jpg"
+import logo from "../images/logo.svg";
+import arrow from "../images/icon-arrow-down.svg";
 
 const Header = () => {
     return (
         <>
-            <div>
-                <img src={background} alt="header background pic" style={{ width: '100%' }} />
+            <div className="background">
                 <img src={logo} alt="logo" />
                 <ul>
                     <li> About</li>
@@ -14,7 +13,9 @@ const Header = () => {
                     <li>Projects</li>
                     <li>Contact</li>
                 </ul>
+
                 <h1>{"We are creatives".toUpperCase()}</h1>
+                <img src={arrow} alt="arrow" />
             </div>
         </>
     )

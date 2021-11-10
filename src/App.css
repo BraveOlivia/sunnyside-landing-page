@@ -5,8 +5,9 @@
 .background {
   background-image: url("./images/desktop/image-header.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 600px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -23,6 +24,7 @@ li {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .header-menu {
@@ -31,4 +33,12 @@ li {
 
 .logo {
   float: left;
+}
+
+.slogan {
+  color: white;
+  margin: 5% auto;
+}
+.arrow {
+  margin-bottom: 15%;
 }

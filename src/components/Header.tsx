@@ -15,8 +15,8 @@ const Header = () => {
                     <li className="header-menu">Contact</li>
                 </ul>
 
-                <h1>{"We are creatives".toUpperCase()}</h1>
-                <img src={arrow} alt="arrow" />
+                <h1 className="slogan">{"We are creatives".toUpperCase()}</h1>
+                <img className="arrow" src={arrow} alt="arrow" />
             </div>
         </>
     )

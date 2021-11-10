@@ -1,0 +1,17 @@
+.test-title {
+  margin: 10% auto;
+}
+
+.test-container {
+  margin: 10% auto;
+}
+.testimonial-item {
+  width: 33.33%;
+  float: left;
+  margin-bottom: 10%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 50%;
+}

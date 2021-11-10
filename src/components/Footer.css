@@ -4,23 +4,16 @@
 }
 
 .pic-gallery {
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 
-.pic-item {
+.footer-img {
   float: left;
   width: 25%;
-  height: 25%;
-  margin: 0;
-  padding: 0;
 }
 
 .footer-logo {
   margin: 5% auto 0;
-  /* filter: invert(30%) sepia(8%) saturate(2280%) hue-rotate(116deg)
-    brightness(93%) contrast(93%); */
 }
 
 .footer-menu {

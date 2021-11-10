@@ -9,7 +9,7 @@ const Footer = () => {
             <ul className="pic-gallery">
                 {GalleryMobile.map(pic => {
                     return (
-                        <li className="pic-item"><img className="footer-img" src={pic.img} alt={pic.id + " footer pic"} /></li>
+                        <img className="footer-img" src={pic.img} alt={pic.id + " footer pic"} />
                     )
                 })}
 

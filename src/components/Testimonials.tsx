@@ -12,8 +12,8 @@ const Testimonial = () => {
                         <div className="testimonial-item">
                             {/* {key=user.id} */}
                             <img className="avatar" src={user.img} alt={user.name + "bio"} />
-                            <p>{user.name} </p>
                             <p>{user.content} </p>
+                            <h5 className="username">{user.name} </h5>
                             <p>{user.title}</p>
                         </div>
                     )

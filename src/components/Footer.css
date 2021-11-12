@@ -16,6 +16,9 @@
   margin: 5% auto 0;
 }
 
+.footer-logo g {
+  fill: hsl(168, 34%, 41%);
+}
 .footer-menu {
   margin: 5% auto;
   text-align: center;
@@ -25,4 +28,5 @@
 
 .social-icons {
   margin: 1%;
+  fill: hsl(168, 34%, 41%);
 }

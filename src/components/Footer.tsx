@@ -1,6 +1,6 @@
 import React from 'react';
 import { GalleryMobile, socialIcons } from './data';
-import logo from "../images/logo.svg";
+import { ReactComponent as Logo } from "../images/logo.svg";
 import "./Footer.css";
 
 const Footer = () => {
@@ -15,7 +15,8 @@ const Footer = () => {
 
             </ul>
             <div className="footer-container">
-                <img className="footer-logo" src={logo} alt="logo" />
+                <Logo className="footer-logo" fill="red" />
+                {/* <img className="footer-logo" src={logo} alt="logo" /> */}
                 <ul>
                     <li className="footer-menu">About</li>
                     <li className="footer-menu">Services</li>

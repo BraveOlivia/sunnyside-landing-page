@@ -17,6 +17,14 @@
   width: 50%;
 }
 
+.content {
+  padding: 0.5rem 1.5rem;
+}
+
 .username {
-  margin: bottom 0;
+  margin-bottom: 0;
+}
+
+.user-title {
+  margin-top: 0;
 }

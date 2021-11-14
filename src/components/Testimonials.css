@@ -8,13 +8,12 @@
 .testimonial-item {
   width: 33.33%;
   float: left;
-  /* padding: 0 0.5rem 0 0.5rem; */
   margin-bottom: 5%;
 }
 
 .avatar {
   border-radius: 50%;
-  width: 50%;
+  width: 30%;
 }
 
 .content {
@@ -23,8 +22,11 @@
 
 .username {
   margin-bottom: 0;
+  font-size: 1rem;
 }
 
 .user-title {
-  margin-top: 0;
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: hsl(210, 4%, 67%);
 }
